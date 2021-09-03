@@ -1,29 +1,22 @@
 # PickingToken
 
-Gem to get recommended tokens for json file 
+Gem to get recommended tokens for json file. Based on the picking problem (https://gist.github.com/luctus/3db17f4eb1a6d32eebaceb86afcc30e2)
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Only for local installation. Download the project or the file picking_token-1.0.0.gem and then:
 
-```ruby
-gem 'picking_token'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install picking_token
+    $ gem install --local picking_token-1.0.0.gem
 
 ## Usage
 
 Install the gem, and then:
 
-     require "picking_token"
-     PickingToken.pick_tokens_recommendations(json_path)
+```ruby
+    require "picking_token"
+    PickingToken.pick_tokens_recommendations(json_path)
+```
+     
 
 ## Development
 
@@ -33,7 +26,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/picking_token. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ernesrocker/picking_token. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
