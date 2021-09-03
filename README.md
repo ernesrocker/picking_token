@@ -1,6 +1,7 @@
 # PickingToken
 
-Gem to get recommended tokens for json file. Based on the picking problem (https://gist.github.com/luctus/3db17f4eb1a6d32eebaceb86afcc30e2)
+Gem to get recommended tokens from a json file. Based on the picking problem :
+https://gist.github.com/luctus/3db17f4eb1a6d32eebaceb86afcc30e2
 
 ## Installation
 
@@ -14,9 +15,10 @@ Install the gem, and then:
 
 ```ruby
     require "picking_token"
+    json_path = "PATH_TO_JSON_FILE"
     PickingToken.pick_tokens_recommendations(json_path)
 ```
-     
+Inside the folder ``spec/data_test/`` you can get json files to test,
 
 ## Development
 
