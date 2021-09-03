@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    PickingToken (0.1.0)
+    picking_token (1.0.0)
       json
 
 GEM
@@ -28,8 +28,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  PickingToken!
   bundler (~> 2.0)
+  picking_token!
   rake (~> 10.0)
   rspec (~> 3.0)
 

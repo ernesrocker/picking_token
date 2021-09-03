@@ -3,12 +3,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "picking_token/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "PickingToken"
+  spec.name          = "picking_token"
   spec.version       = PickingToken::VERSION
   spec.authors       = ["Ernesto"]
   spec.email         = ["ernes920825@gmail.com"]
 
-  spec.summary       = "Picking problem"
+  spec.summary       = "Picking tokens"
   spec.description   = "https://gist.github.com/luctus/3db17f4eb1a6d32eebaceb86afcc30e2"
   spec.homepage      = "https://github.com/ernesrocker/picking_token.git"
   spec.license       = "MIT"
