@@ -20,7 +20,9 @@ jobs:
       uses: actions/setup-ruby@v1
       with:
         ruby-version: 2.5.x
-    - run: bundle install
+    - run: |
+        gem install bundler
+        bundle install
   
     - name: Run tests
       run: bundle exec rspec spec
