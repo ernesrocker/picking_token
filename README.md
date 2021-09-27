@@ -4,10 +4,7 @@ Gem to get recommended tokens from a json file. Based on the picking problem :
 https://gist.github.com/luctus/3db17f4eb1a6d32eebaceb86afcc30e2
 
 ## Installation
-
-Only for local installation. Download the project or the file picking_token-1.0.0.gem and then:
-
-    $ gem install --local picking_token-1.0.0.gem
+See documentation in [packages](https://github.com/ernesrocker/picking_token/packages/1010624)
 
 ## Usage
 
