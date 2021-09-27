@@ -17,19 +17,19 @@ RSpec.describe PickingToken do
   end
 
   it "return and puts in console [790952, 103678, 788138, 802358] array" do
-    json_path = "/home/ernes/work/gitHub/picking_token/spec/data_test/scenario_2.json"
+    json_path = scenarios["scenario_2"]
     result = PickingToken.pick_tokens_recommendations(json_path)
     expect([790952, 103678, 788138, 802358]).to eq(result)
   end
 
   it "return and puts in console [103678, 790952, 802358, 788138] array" do
-    json_path = "/home/ernes/work/gitHub/picking_token/spec/data_test/scenario_3.json"
+    json_path = scenarios["scenario_3"]
     result = PickingToken.pick_tokens_recommendations(json_path)
     expect([103678, 790952, 802358, 788138]).to eq(result)
   end
 
   it "return and puts in console [790952, 103678, 802358, 562873] array" do
-    json_path = "/home/ernes/work/gitHub/picking_token/spec/data_test/scenario_4.json"
+    json_path = scenarios["scenario_4"]
     result = PickingToken.pick_tokens_recommendations(json_path)
     expect([790952, 103678, 802358, 562873]).to eq(result)
   end
