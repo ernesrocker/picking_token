@@ -4,7 +4,7 @@ class DataTest
     current_path = File.dirname(__FILE__)
     puts current_path
     4.times do |i|
-      json_file_name = "scenario_#{i}"
+      json_file_name = "scenario_#{i+1}"
       scenarios[json_file_name] = "#{current_path}/#{json_file_name}.json"
     end
     scenarios
